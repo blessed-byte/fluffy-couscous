@@ -1,0 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/candy-crush');
+body{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background: url('pexels-engin-akyurt-2684260.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    backdrop-filter: brightness(.7);
+}
+
+h2{
+  /* display: flex; */
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Candy Crush', sans-serif;
+  color:gold;
+  filter: brightness(10);                                              
+}
+.fruit-container {
+    width: 500px;
+    margin: auto;
+    height: 70vh;
+    margin-top: 2%;
+    /* border: solid 2px black; */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    padding: 10px;
+    
+  }
+  
+  .animation {
+    animation: mymove 3s;
+    animation-iteration-count: infinite;
+  }
+
+  .filter {
+    filter: brightness(.3);
+  }
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 20px;}
+  }
+   
+  .hidden {
+    display: none;
+  }
